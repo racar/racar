@@ -21,6 +21,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: racar
           filename: github-metrics.svg
+          output_dir: .  # ✅ NEW: Save SVG to root directory
           base: header, activity, community, repositories
           plugin_isocalendar: yes
           plugin_languages: yes
