@@ -21,7 +21,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: racar
           filename: github-metrics.svg
-          output_dir: .  # ✅ NEW: Save SVG to root directory
+          output_dir: .  # Save SVG to root directory
           base: header, activity, community, repositories
           plugin_isocalendar: yes
           plugin_languages: yes
@@ -35,6 +35,13 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
+
+          # Pull latest changes first
+          git pull origin main || echo "No changes to pull"
+
+          # Add and commit the new SVG
           git add github-metrics.svg
           git commit -m "📈 Auto-update metrics SVG (including private repos)" || echo "No changes to commit"
-          git push
+
+          # Push with force if needed (safe for this use case)
+          git push origin main
