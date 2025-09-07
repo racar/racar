@@ -92,7 +92,7 @@
 ![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
 
 #### Databases & Messaging
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -111,6 +111,10 @@
 ![RSpec](https://img.shields.io/badge/RSpec-DC322F?style=for-the-badge&logo=ruby&logoColor=white)
 ![Codeship](https://img.shields.io/badge/Codeship-3E2671?style=for-the-badge&logo=codeship&logoColor=white)
 ![Mina](https://img.shields.io/badge/Mina-000000?style=for-the-badge&logo=linux&logoColor=white)
+
+#### Code Review & Collaboration
+![GitHub Pull Request Reviewer](https://img.shields.io/badge/Pull%20Request%20Reviewer-0077B5?style=for-the-badge&logo=github&logoColor=white)
+![AI-Assisted Developer](https://img.shields.io/badge/AI--Assisted%20Developer-555555?style=for-the-badge&logo=anthropic&logoColor=white)
 
 ---
 
