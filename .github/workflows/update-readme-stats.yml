@@ -56,10 +56,15 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: percentage, bytes-size
-          plugin_languages_colors: github
+          plugin_languages_colors: >-
+            ruby:#e74c3c, kotlin:#7f39fb, java:#f39c12,
+            plpgsql:#336791, dart:#0175c2, vue:#4fc08d,
+            javascript:#f1e05a, typescript:#2b7489,
+            python:#3776ab, go:#00add8, rust:#dea584,
+            c++:#f34b7d, c#:#239120, php:#4f5d95
           plugin_languages_aliases: "Kotlin:kotlin, Ruby:ruby, Java:java"
           plugin_languages_ignored: >-
-            javascript, html, css, typescript, json, yaml, yml, 
+            javascript, html, css, typescript, json, yaml, yml,
             liquid, markdown, makefile, dockerfile, shell, bash
           plugin_languages_additional: kotlin, ruby, java
           
