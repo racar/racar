@@ -3,7 +3,7 @@ name: 📊 Update GitHub Profile README Stats
 on:
   schedule:
     - cron: '0 */6 * * *'  # Runs every 6 hours
-  workflow_dispatch:       # Allows manual run
+  workflow_dispatch:       # Manual trigger
 
 jobs:
   update-readme:
@@ -21,12 +21,11 @@ jobs:
           THEME="radical"
           LANGS_COUNT=8
 
-          # Fetch stats images
-          wget -O stats.png "https://github-readme-stats.vercel.app/api?username=${USERNAME}&theme=${THEME}&hide_border=true&count_private=true&include_all_commits=true" || exit 1
-          wget -O langs.png "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=${THEME}&hide_border=true&langs_count=${LANGS_COUNT}&count_private=true" || exit 1
+          # Generate markdown with direct URLs (no file storage needed)
+          STATS_URL="https://github-readme-stats.vercel.app/api?username=${USERNAME}&theme=${THEME}&hide_border=true&count_private=true&include_all_commits=true"
+          LANGS_URL="https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=${THEME}&hide_border=true&langs_count=${LANGS_COUNT}&count_private=true"
 
-          # Generate markdown
-          echo -e "![Rafael's GitHub Stats](stats.png)\n![Top Languages](langs.png)" > stats.md
+          echo -e "![Rafael's GitHub Stats](${STATS_URL})\n![Top Languages](${LANGS_URL})" > stats.md
 
       - name: 🔄 Insert Stats into README.md
         run: |
