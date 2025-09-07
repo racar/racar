@@ -1,44 +1,39 @@
-name: 📊 Update GitHub Profile README Stats
+name: 📊 Update GitHub Profile Metrics
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Runs every 6 hours
+    - cron: '0 */6 * * *'  # Every 6 hours
   workflow_dispatch:       # Manual trigger
 
 jobs:
-  update-readme:
+  update-metrics:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write  # Required to commit the SVG
 
     steps:
       - name: 🛎️ Checkout Repository
         uses: actions/checkout@v4
 
-      - name: 📈 Fetch Stats from API (with private contributions)
-        run: |
-          USERNAME="racar"
-          THEME="radical"
-          LANGS_COUNT=8
+      - name: 📈 Generate GitHub Metrics (with private contributions)
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: racar
+          filename: github-metrics.svg
+          base: header, activity, community, repositories
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_threshold: 0%
+          plugin_languages_details: bytes-size, percentage
+          plugin_lines: yes
+          config_timezone: America/Bogota
 
-          # Generate markdown with direct URLs (no file storage needed)
-          STATS_URL="https://github-readme-stats.vercel.app/api?username=${USERNAME}&theme=${THEME}&hide_border=true&count_private=true&include_all_commits=true"
-          LANGS_URL="https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=${THEME}&hide_border=true&langs_count=${LANGS_COUNT}&count_private=true"
-
-          echo -e "![Rafael's GitHub Stats](${STATS_URL})\n![Top Languages](${LANGS_URL})" > stats.md
-
-      - name: 🔄 Insert Stats into README.md
-        run: |
-          STATS_CONTENT=$(cat stats.md)
-          sed -i "/<!--STATS_PLACEHOLDER-->/{
-            r /dev/stdin
-            d
-          }" README.md <<< "$STATS_CONTENT"
-
-      - name: 💾 Commit & Push Updated README
+      - name: 💾 Commit & Push Metrics SVG
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git add README.md
-          git commit -m "📈 Auto-update profile stats (including private repos)" || echo "No changes to commit"
+          git add github-metrics.svg
+          git commit -m "📈 Auto-update metrics SVG (including private repos)" || echo "No changes to commit"
           git push
