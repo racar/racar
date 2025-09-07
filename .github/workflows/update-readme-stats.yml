@@ -21,13 +21,16 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: racar
           filename: github-metrics.svg
-          output_dir: .  # Save SVG to root directory
-          base: header, activity, community, repositories
+          output_dir: .
+          title: "Rafael Carrascal Reyes • Fintech Backend Engineer (Ruby/Java/Kotlin)"
+          base: header, activity, community
           plugin_isocalendar: yes
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_threshold: 0%
           plugin_languages_details: bytes-size, percentage
+          plugin_languages_ignored: javascript, html, css, typescript, json, yaml  # ✅ HIDE NOISY LANGS
+          plugin_languages_additional: kotlin  # ✅ FORCE INCLUDE KOTLIN
           plugin_lines: yes
           config_timezone: America/Bogota
 
@@ -35,13 +38,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-
-          # Pull latest changes first
           git pull origin main || echo "No changes to pull"
-
-          # Add and commit the new SVG
           git add github-metrics.svg
           git commit -m "📈 Auto-update metrics SVG (including private repos)" || echo "No changes to commit"
-
-          # Push with force if needed (safe for this use case)
           git push origin main
