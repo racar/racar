@@ -32,14 +32,13 @@ jobs:
           plugin_languages_details: files, percentage
           plugin_languages_ignored: javascript, html, css, typescript, json, yaml, liquid  # ✅ HIDE NOISY LANGS
           plugin_languages_additional: kotlin  # ✅ FORCE INCLUDE KOTLIN
-          plugin_lines: yes
+          plugin_lines: no
           plugin_technologies: yes
           plugin_technologies_list: docker, postgresql, rabbitmq, rspec  # ✅ Highlight your core tools
           config_timezone: America/Bogota
           config_font_size: 8
           config_scale: 0.9
           plugin_streaks: no
-          plugin_lines: no
 
       - name: 💾 Commit & Push Metrics SVG
         run: |
