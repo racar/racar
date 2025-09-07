@@ -1,0 +1,60 @@
+name: 📊 Update GitHub Profile README Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Runs every 6 hours
+  workflow_dispatch:       # Allows you to run it manually from GitHub UI
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to push changes back to repo
+
+    steps:
+      - name: 🛎️ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📈 Generate Stats with Private Contributions
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          # GitHub Token (automatically available via GITHUB_TOKEN)
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Your GitHub username
+          user: racar
+
+          # Stats Card
+          show_icons: true
+          theme: radical
+          hide_border: true
+          include_all_commits: true
+          count_private: true
+          show: stats
+
+          # Top Languages Card
+          show_top_languages: true
+          langs_count: 8
+          layout: compact
+
+          # Output file — this will generate markdown content
+          output_file: stats.md
+
+      - name: 🔄 Insert Stats into README.md
+        run: |
+          # Read generated stats
+          STATS_CONTENT=$(cat stats.md)
+
+          # Replace <!--STATS_PLACEHOLDER--> in README.md with actual stats
+          sed -i "/<!--STATS_PLACEHOLDER-->/{
+            r /dev/stdin
+            d
+          }" README.md <<< "$STATS_CONTENT"
+
+      - name: 💾 Commit & Push Updated README
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add README.md
+          git commit -m "📈 Auto-update profile stats (including private repos)" || echo "No changes to commit"
+          git push
