@@ -23,7 +23,6 @@ jobs:
           filename: github-metrics.svg
           output_dir: .
           title: "Rafael Carrascal Reyes • Fintech Backend Engineer (Ruby/Java/Kotlin)"
-          base: header
           plugin_isocalendar: no
           plugin_contributions: yes
           plugin_languages: yes
@@ -37,8 +36,6 @@ jobs:
           plugin_technologies: yes
           plugin_technologies_list: docker, postgresql, rabbitmq, rspec  # ✅ Highlight your core tools
           config_timezone: America/Bogota
-          config_font_size: 8
-          config_scale: 0.9
           plugin_streaks: no
 
       - name: 💾 Commit & Push Metrics SVG
