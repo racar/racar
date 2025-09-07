@@ -3,49 +3,34 @@ name: 📊 Update GitHub Profile README Stats
 on:
   schedule:
     - cron: '0 */6 * * *'  # Runs every 6 hours
-  workflow_dispatch:       # Allows you to run it manually from GitHub UI
+  workflow_dispatch:       # Allows manual run
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Required to push changes back to repo
+      contents: write
 
     steps:
       - name: 🛎️ Checkout Repository
         uses: actions/checkout@v4
 
-      - name: 📈 Generate Stats with Private Contributions
-        uses: anuraghazra/github-readme-stats-action@v1
-        with:
-          # GitHub Token (automatically available via GITHUB_TOKEN)
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: 📈 Fetch Stats from API (with private contributions)
+        run: |
+          USERNAME="racar"
+          THEME="radical"
+          LANGS_COUNT=8
 
-          # Your GitHub username
-          user: racar
+          # Fetch stats images
+          wget -O stats.png "https://github-readme-stats.vercel.app/api?username=${USERNAME}&theme=${THEME}&hide_border=true&count_private=true&include_all_commits=true" || exit 1
+          wget -O langs.png "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=${THEME}&hide_border=true&langs_count=${LANGS_COUNT}&count_private=true" || exit 1
 
-          # Stats Card
-          show_icons: true
-          theme: radical
-          hide_border: true
-          include_all_commits: true
-          count_private: true
-          show: stats
-
-          # Top Languages Card
-          show_top_languages: true
-          langs_count: 8
-          layout: compact
-
-          # Output file — this will generate markdown content
-          output_file: stats.md
+          # Generate markdown
+          echo -e "![Rafael's GitHub Stats](stats.png)\n![Top Languages](langs.png)" > stats.md
 
       - name: 🔄 Insert Stats into README.md
         run: |
-          # Read generated stats
           STATS_CONTENT=$(cat stats.md)
-
-          # Replace <!--STATS_PLACEHOLDER--> in README.md with actual stats
           sed -i "/<!--STATS_PLACEHOLDER-->/{
             r /dev/stdin
             d

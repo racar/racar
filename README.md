@@ -1,24 +1,6 @@
-## Hi there 👋
-
-<!--
-**racar/racar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<!-- PROFILE VIEWS & ACTIVITY GRAPH -->
+<!-- PROFILE VIEWS -->
 ![Profile Views](https://komarev.com/ghpvc/?username=racar&label=Profile%20Views&color=0e75b6&style=flat)
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=racar&theme=react-dark&hide_border=true&area=true)
 
-<!-- HEADER -->
 <h1 align="center">👋 Hi, I’m Rafael Carrascal Reyes</h1>
 <h3 align="center">Backend Engineer • Ruby on Rails Specialist • Fintech & Insurance Tech Builder</h3>
 
@@ -55,8 +37,6 @@ Here are some ideas to get you started:
 | **Jan 2020 – Nov 2020** | Ruby on Rails Developer       | **Freelancer.com**| Delivered production Rails apps for CINTE Iberia • Recognized as “Golden Professional” • Tech: Ruby, Java, JS, Shopify, Liquid |
 | **Jan 2019 – Dec 2019** | Sr. Ruby on Rails Developer   | **Grupo Ditech** (InsurTech) | Architected microservices for insurance startup • Integrated RabbitMQ for async comms • Led grooming, testing, Git workflows in Scrum |
 | **Mar 2015 – Dec 2018** | Sr. Software Engineer         | **Freelancer.com**| Full-stack MVPs for startups (Rails, Angular, Ionic) • DevOps: Codeship, Mina • Infrastructure: Linux + Nginx • Legacy system modernization |
-
-> ⚙️ *Earlier roles at Corficolombiana (C#, ASP.NET, Java for financial systems) and Android/Groovy projects available on request.*
 
 ---
 
@@ -111,7 +91,6 @@ Here are some ideas to get you started:
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
 #### Databases & Messaging
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -149,5 +128,3 @@ I’m open to **backend engineering roles**, **Fintech/InsurTech projects**, **f
 👉 **Portfolio**: [racar.github.io](https://racar.github.io)
 
 > “Engineering reliable systems that empower financial inclusion — one line of clean code at a time.”
-
----
