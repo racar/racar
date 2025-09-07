@@ -33,7 +33,7 @@ jobs:
           plugin_languages_ignored: javascript, html, css, typescript, json, yaml, liquid  # ✅ HIDE NOISY LANGS
           plugin_languages_additional: kotlin  # ✅ FORCE INCLUDE KOTLIN
           plugin_lines: yes
-           plugin_technologies: yes  # ✅ Enable technologies plugin
+          plugin_technologies: yes
           plugin_technologies_list: docker, postgresql, rabbitmq, rspec  # ✅ Highlight your core tools
           config_timezone: America/Bogota
 
