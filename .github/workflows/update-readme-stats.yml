@@ -56,7 +56,6 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: percentage, bytes-size
-          plugin_languages_colors: vibrant
           plugin_languages_aliases: "Kotlin:kotlin, Ruby:ruby, Java:java"
           plugin_languages_ignored: >-
             javascript, html, css, typescript, json, yaml, yml,
