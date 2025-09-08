@@ -29,6 +29,13 @@ jobs:
           config_animations: yes
           config_timezone: America/Bogota
           
+          # 🌈 COLOR SCHEME (High Contrast)
+          config_theme: dark
+          config_order: base.header, base.metadata, languages, isocalendar, contributions, topics, notable
+          use_prebuilt: no
+          optimize: svg
+          experimental_features: --optimize-svg
+          
           # 📏 SIZE & FONT OPTIMIZATION
           config_font_size: 12
           config_font_weight: normal
@@ -45,6 +52,7 @@ jobs:
           # 📅 CALENDAR (COMPACT)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          plugin_isocalendar_rainbow: yes
           
           # 🤝 CONTRIBUTIONS
           plugin_contributions: yes
@@ -56,6 +64,7 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: percentage, bytes-size
+          plugin_languages_colors: github
           plugin_languages_aliases: "Kotlin:kotlin, Ruby:ruby, Java:java"
           plugin_languages_ignored: >-
             javascript, html, css, typescript, json, yaml, yml,
