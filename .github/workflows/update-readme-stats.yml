@@ -30,11 +30,20 @@ jobs:
           config_timezone: America/Bogota
           
           # 🌈 COLOR SCHEME (High Contrast)
-          config_theme: dark
+          config_theme: github-dark
           config_order: base.header, base.metadata, languages, isocalendar, contributions, topics, notable
           use_prebuilt: no
           optimize: svg
           experimental_features: --optimize-svg
+          
+          # 🎨 CUSTOM COLORS FOR BETTER CONTRAST
+          config_colors: |
+            {
+              "calendar.graph": ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
+              "languages.colors": "rainbow",
+              "background": "#0d1117",
+              "border": "#30363d"
+            }
           
           # 📏 SIZE & FONT OPTIMIZATION
           config_font_size: 12
@@ -57,6 +66,7 @@ jobs:
           # 🤝 CONTRIBUTIONS
           plugin_contributions: yes
           plugin_contributions_display: compact
+          plugin_contributions_rainbow: yes
           
           # 💬 LANGUAGES (OPTIMIZED)
           plugin_languages: yes
@@ -64,7 +74,7 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: percentage, bytes-size
-          plugin_languages_colors: github
+          plugin_languages_colors: rainbow
           plugin_languages_aliases: "Kotlin:kotlin, Ruby:ruby, Java:java"
           plugin_languages_ignored: >-
             javascript, html, css, typescript, json, yaml, yml,
