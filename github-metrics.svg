@@ -1886,7 +1886,7 @@
         
           <small>
             
-              estimation from 103kb of code in 91 edited files across 82 commits over last 8 days
+              estimation from 128kb of code in 105 edited files across 91 commits over last 8 days
             
           </small>
         
@@ -1913,7 +1913,7 @@
                     </div>
                     <small>
                       
-                       <div>70.4 kB</div>
+                       <div>95.5 kB</div>
                        <div>100%</div>
                     </small>
                   </div>
@@ -3081,7 +3081,7 @@
           
             <span>These metrics include private contributions</span>
           
-          <span>Last updated 13 Sept 2025, 07:11:42 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
+          <span>Last updated 13 Sept 2025, 13:08:45 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
         </footer>
       
 
