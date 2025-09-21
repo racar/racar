@@ -1766,17 +1766,17 @@
             </mask>
             <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
             
-              <rect mask="url(#languages-bar)" x="0" y="0" width="814.7654623063897" height="8" fill="#ff0000"/>
+              <rect mask="url(#languages-bar)" x="0" y="0" width="814.1080699520122" height="8" fill="#ff0000"/>
             
-              <rect mask="url(#languages-bar)" x="814.7654623063897" y="0" width="48.48618885524072" height="8" fill="#ffa500"/>
+              <rect mask="url(#languages-bar)" x="814.1080699520122" y="0" width="49.18936853416224" height="8" fill="#ffa500"/>
             
-              <rect mask="url(#languages-bar)" x="863.2516511616304" y="0" width="27.31160741575229" height="8" fill="#ffff00"/>
+              <rect mask="url(#languages-bar)" x="863.2974384861744" y="0" width="27.289571084155646" height="8" fill="#ffff00"/>
             
-              <rect mask="url(#languages-bar)" x="890.5632585773827" y="0" width="17.879360490101416" height="8" fill="#008000"/>
+              <rect mask="url(#languages-bar)" x="890.5870095703301" y="0" width="17.864934553520744" height="8" fill="#008000"/>
             
-              <rect mask="url(#languages-bar)" x="908.4426190674841" y="0" width="7.543174632589547" height="8" fill="#0000ff"/>
+              <rect mask="url(#languages-bar)" x="908.4519441238509" y="0" width="7.537088432866303" height="8" fill="#0000ff"/>
             
-              <rect mask="url(#languages-bar)" x="915.9857937000737" y="0" width="4.014206299926336" height="8" fill="#4b0082"/>
+              <rect mask="url(#languages-bar)" x="915.9890325567172" y="0" width="4.01096744328286" height="8" fill="#4b0082"/>
             
           </svg>
         
@@ -1793,7 +1793,7 @@
                     <small>
                       
                        <div>4.22 MB</div>
-                       <div>88.56%</div>
+                       <div>88.49%</div>
                     </small>
                   </div>
                 
@@ -1820,8 +1820,8 @@
                     </div>
                     <small>
                       
-                       <div>251 kB</div>
-                       <div>5.27%</div>
+                       <div>255 kB</div>
+                       <div>5.35%</div>
                     </small>
                   </div>
                 
@@ -1886,7 +1886,7 @@
         
           <small>
             
-              estimation from 180kb of code in 119 edited files across 90 commits over last 14 days
+              estimation from 166kb of code in 104 edited files across 64 commits over last 14 days
             
           </small>
         
@@ -1913,7 +1913,7 @@
                     </div>
                     <small>
                       
-                       <div>154 kB</div>
+                       <div>159 kB</div>
                        <div>100%</div>
                     </small>
                   </div>
@@ -3086,7 +3086,7 @@
           
             <span>These metrics include private contributions</span>
           
-          <span>Last updated 21 Sept 2025, 07:12:08 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
+          <span>Last updated 21 Sept 2025, 13:10:00 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
         </footer>
       
 
