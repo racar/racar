@@ -75,11 +75,11 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage, bytes-size
           plugin_languages_colors: rainbow
-          plugin_languages_aliases: "Kotlin:kotlin, Ruby:ruby, Java:java"
+          plugin_languages_aliases: "Kotlin:kotlin, Ruby:ruby, Java:java, C#:csharp"
           plugin_languages_ignored: >-
             javascript, html, css, typescript, json, yaml, yml,
-            liquid, markdown, makefile, dockerfile, shell, bash
-          plugin_languages_additional: kotlin, ruby, java
+            liquid, markdown, makefile, dockerfile
+          plugin_languages_additional: kotlin, ruby, java, csharp
           plugin_languages_indepth: no
           
           # 🛠️ TECHNOLOGIES
