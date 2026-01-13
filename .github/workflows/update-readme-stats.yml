@@ -72,7 +72,7 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 6
           plugin_languages_threshold: 0%
-          plugin_languages_sections: most-used, recently-used
+          plugin_languages_sections: most-used
           plugin_languages_details: percentage, bytes-size
           plugin_languages_colors: rainbow
           plugin_languages_aliases: "Kotlin:kotlin, Ruby:ruby, Java:java"
@@ -80,11 +80,13 @@ jobs:
             javascript, html, css, typescript, json, yaml, yml,
             liquid, markdown, makefile, dockerfile, shell, bash
           plugin_languages_additional: kotlin, ruby, java
+          plugin_languages_indepth: no
           
-          # 🛠️ TECHNOLOGIES 
+          # 🛠️ TECHNOLOGIES
           plugin_notable: yes
-          plugin_notable_from: organization
+          plugin_notable_from: all
           plugin_notable_types: commit
+          plugin_notable_repositories: yes
           
           # 📊 ACTIVITY
           plugin_activity: no
