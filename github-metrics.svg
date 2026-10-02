@@ -1730,7 +1730,7 @@
                 
                   <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                 
-                  <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                  <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                 
               </g>
             </svg>
@@ -1766,17 +1766,17 @@
             </mask>
             <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
             
-              <rect mask="url(#languages-bar)" x="0" y="0" width="694.8192631514214" height="8" fill="#ff0000"/>
+              <rect mask="url(#languages-bar)" x="0" y="0" width="692.5651087738502" height="8" fill="#ff0000"/>
             
-              <rect mask="url(#languages-bar)" x="694.8192631514214" y="0" width="71.6846891040172" height="8" fill="#ffa500"/>
+              <rect mask="url(#languages-bar)" x="692.5651087738502" y="0" width="74.46035677495057" height="8" fill="#ffa500"/>
             
-              <rect mask="url(#languages-bar)" x="766.5039522554385" y="0" width="66.58582908694103" height="8" fill="#ffff00"/>
+              <rect mask="url(#languages-bar)" x="767.0254655488008" y="0" width="66.35959919028484" height="8" fill="#ffff00"/>
             
-              <rect mask="url(#languages-bar)" x="833.0897813423795" y="0" width="48.37206691446624" height="8" fill="#008000"/>
+              <rect mask="url(#languages-bar)" x="833.3850647390856" y="0" width="48.20771951729232" height="8" fill="#008000"/>
             
-              <rect mask="url(#languages-bar)" x="881.4618482568458" y="0" width="23.29091231527657" height="8" fill="#0000ff"/>
+              <rect mask="url(#languages-bar)" x="881.5927842563779" y="0" width="23.21177985183253" height="8" fill="#0000ff"/>
             
-              <rect mask="url(#languages-bar)" x="904.7527605721224" y="0" width="15.247239427877593" height="8" fill="#4b0082"/>
+              <rect mask="url(#languages-bar)" x="904.8045641082103" y="0" width="15.1954358917895" height="8" fill="#4b0082"/>
             
           </svg>
         
@@ -1792,8 +1792,8 @@
                     </div>
                     <small>
                       
-                       <div>4.22 MB</div>
-                       <div>75.52%</div>
+                       <div>4.23 MB</div>
+                       <div>75.28%</div>
                     </small>
                   </div>
                 
@@ -1805,7 +1805,7 @@
                     <small>
                       
                        <div>141 kB</div>
-                       <div>2.53%</div>
+                       <div>2.52%</div>
                     </small>
                   </div>
                 
@@ -1820,8 +1820,8 @@
                     </div>
                     <small>
                       
-                       <div>435 kB</div>
-                       <div>7.79%</div>
+                       <div>454 kB</div>
+                       <div>8.09%</div>
                     </small>
                   </div>
                 
@@ -1833,7 +1833,7 @@
                     <small>
                       
                        <div>92.7 kB</div>
-                       <div>1.66%</div>
+                       <div>1.65%</div>
                     </small>
                   </div>
                 
@@ -1849,7 +1849,7 @@
                     <small>
                       
                        <div>404 kB</div>
-                       <div>7.24%</div>
+                       <div>7.21%</div>
                     </small>
                   </div>
                 
@@ -1865,7 +1865,7 @@
                     <small>
                       
                        <div>294 kB</div>
-                       <div>5.26%</div>
+                       <div>5.24%</div>
                     </small>
                   </div>
                 
@@ -3015,7 +3015,7 @@
           
             <span>These metrics include private contributions</span>
           
-          <span>Last updated 2 Oct 2026, 07:17:15 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
+          <span>Last updated 2 Oct 2026, 17:03:00 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
         </footer>
       
 
