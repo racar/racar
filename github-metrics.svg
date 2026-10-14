@@ -1766,17 +1766,17 @@
             </mask>
             <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
             
-              <rect mask="url(#languages-bar)" x="0" y="0" width="673.6998872272515" height="8" fill="#ff0000"/>
+              <rect mask="url(#languages-bar)" x="0" y="0" width="672.983633394689" height="8" fill="#ff0000"/>
             
-              <rect mask="url(#languages-bar)" x="673.6998872272515" y="0" width="72.43208375166009" height="8" fill="#ffa500"/>
+              <rect mask="url(#languages-bar)" x="672.983633394689" y="0" width="72.85663535170127" height="8" fill="#ffa500"/>
             
-              <rect mask="url(#languages-bar)" x="746.1319709789115" y="0" width="71.9550240025539" height="8" fill="#ffff00"/>
+              <rect mask="url(#languages-bar)" x="745.8402687463904" y="0" width="72.355076528457" height="8" fill="#ffff00"/>
             
-              <rect mask="url(#languages-bar)" x="818.0869949814654" y="0" width="64.55198785582905" height="8" fill="#008000"/>
+              <rect mask="url(#languages-bar)" x="818.1953452748473" y="0" width="64.48335847117596" height="8" fill="#008000"/>
             
-              <rect mask="url(#languages-bar)" x="882.6389828372944" y="0" width="22.57949941516576" height="8" fill="#0000ff"/>
+              <rect mask="url(#languages-bar)" x="882.6787037460233" y="0" width="22.555493691994254" height="8" fill="#0000ff"/>
             
-              <rect mask="url(#languages-bar)" x="905.2184822524601" y="0" width="14.781517747539821" height="8" fill="#4b0082"/>
+              <rect mask="url(#languages-bar)" x="905.2341974380176" y="0" width="14.765802561982442" height="8" fill="#4b0082"/>
             
           </svg>
         
@@ -1793,7 +1793,7 @@
                     <small>
                       
                        <div>4.23 MB</div>
-                       <div>73.23%</div>
+                       <div>73.15%</div>
                     </small>
                   </div>
                 
@@ -1816,12 +1816,12 @@
                   <div class="field language details">
                     <div class="field">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#ffa500" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-                      Python
+                      kotlin
                     </div>
                     <small>
                       
-                       <div>454 kB</div>
-                       <div>7.87%</div>
+                       <div>457 kB</div>
+                       <div>7.92%</div>
                     </small>
                   </div>
                 
@@ -1833,7 +1833,7 @@
                     <small>
                       
                        <div>92.7 kB</div>
-                       <div>1.61%</div>
+                       <div>1.6%</div>
                     </small>
                   </div>
                 
@@ -1844,12 +1844,12 @@
                   <div class="field language details">
                     <div class="field">
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="#ffff00" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/></svg>
-                      kotlin
+                      Python
                     </div>
                     <small>
                       
-                       <div>451 kB</div>
-                       <div>7.82%</div>
+                       <div>454 kB</div>
+                       <div>7.86%</div>
                     </small>
                   </div>
                 
@@ -1865,7 +1865,7 @@
                     <small>
                       
                        <div>404 kB</div>
-                       <div>7.02%</div>
+                       <div>7.01%</div>
                     </small>
                   </div>
                 
@@ -3040,7 +3040,7 @@
           
             <span>These metrics include private contributions</span>
           
-          <span>Last updated 14 Oct 2026, 06:35:00 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
+          <span>Last updated 14 Oct 2026, 11:57:31 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
         </footer>
       
 
