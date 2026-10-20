@@ -1730,7 +1730,7 @@
                 
                   <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                 
-                  <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                  <rect class="day" x="195" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                 
               </g>
             </svg>
@@ -1766,17 +1766,17 @@
             </mask>
             <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
             
-              <rect mask="url(#languages-bar)" x="0" y="0" width="669.7662657465266" height="8" fill="#ff0000"/>
+              <rect mask="url(#languages-bar)" x="0" y="0" width="667.9460695240231" height="8" fill="#ff0000"/>
             
-              <rect mask="url(#languages-bar)" x="669.7662657465266" y="0" width="76.90661743079953" height="8" fill="#ffa500"/>
+              <rect mask="url(#languages-bar)" x="667.9460695240231" y="0" width="79.19785762704875" height="8" fill="#ffa500"/>
             
-              <rect mask="url(#languages-bar)" x="746.6728831773262" y="0" width="72.00916487347557" height="8" fill="#ffff00"/>
+              <rect mask="url(#languages-bar)" x="747.1439271510718" y="0" width="71.81346852895717" height="8" fill="#ffff00"/>
             
-              <rect mask="url(#languages-bar)" x="818.6820480508017" y="0" width="64.17507954566403" height="8" fill="#008000"/>
+              <rect mask="url(#languages-bar)" x="818.9573956800291" y="0" width="64.00067357250312" height="8" fill="#008000"/>
             
-              <rect mask="url(#languages-bar)" x="882.8571275964657" y="0" width="22.44766147722419" height="8" fill="#0000ff"/>
+              <rect mask="url(#languages-bar)" x="882.9580692525321" y="0" width="22.3866563912494" height="8" fill="#0000ff"/>
             
-              <rect mask="url(#languages-bar)" x="905.3047890736898" y="0" width="14.695210926310054" height="8" fill="#4b0082"/>
+              <rect mask="url(#languages-bar)" x="905.3447256437815" y="0" width="14.655274356218474" height="8" fill="#4b0082"/>
             
           </svg>
         
@@ -1793,7 +1793,7 @@
                     <small>
                       
                        <div>4.23 MB</div>
-                       <div>72.8%</div>
+                       <div>72.6%</div>
                     </small>
                   </div>
                 
@@ -1805,7 +1805,7 @@
                     <small>
                       
                        <div>141 kB</div>
-                       <div>2.44%</div>
+                       <div>2.43%</div>
                     </small>
                   </div>
                 
@@ -1820,8 +1820,8 @@
                     </div>
                     <small>
                       
-                       <div>485 kB</div>
-                       <div>8.36%</div>
+                       <div>500 kB</div>
+                       <div>8.61%</div>
                     </small>
                   </div>
                 
@@ -1833,7 +1833,7 @@
                     <small>
                       
                        <div>92.7 kB</div>
-                       <div>1.6%</div>
+                       <div>1.59%</div>
                     </small>
                   </div>
                 
@@ -1849,7 +1849,7 @@
                     <small>
                       
                        <div>454 kB</div>
-                       <div>7.83%</div>
+                       <div>7.81%</div>
                     </small>
                   </div>
                 
@@ -1865,7 +1865,7 @@
                     <small>
                       
                        <div>404 kB</div>
-                       <div>6.98%</div>
+                       <div>6.96%</div>
                     </small>
                   </div>
                 
@@ -3035,7 +3035,7 @@
           
             <span>These metrics include private contributions</span>
           
-          <span>Last updated 20 Oct 2026, 11:41:49 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
+          <span>Last updated 20 Oct 2026, 16:27:49 (timezone America/Bogota) with lowlighter/metrics@3.34.0</span>
         </footer>
       
 
